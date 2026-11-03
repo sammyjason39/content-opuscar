@@ -50,7 +50,8 @@ Aturan yang paling sering dilanggar agent, dan tidak boleh:
 | `02-slate-preview.html` | Tampilan slate dalam satu halaman, untuk dilihat manusia. |
 | `03-BRIEFS/` | Brief sumber per film, plus `00-hyperagent-master.md` (panduan operasional Hyperagent). |
 | `04-PASTE/` | Enam file siap tempel. **Ini yang dipakai.** Masing-masing sudah lengkap dan mandiri. |
-| `05-CONTENT-MINE.md` | Bedah seluruh vault: 12 tema layak, 8 titik temu antar domain, tiga tingkat risiko, 20 hook siap pakai. |
+| `05-CONTENT-MINE.md` | Bedah vault versi AI saja: 18 film dalam 4 kelompok, 5 titik temu, aturan attribusi. |
+| `06-AI-RESOURCES.md` | Inventaris seluruh resource AI di vault, mana yang sudah dipakai, 20 ide cadangan. |
 
 Semua angka di repo ini berasal dari pengalaman dan catatan sendiri. Tidak ada data klien.
 
