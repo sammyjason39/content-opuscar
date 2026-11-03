@@ -9,3 +9,5 @@ _archive-gaming/
 *.mp4
 *.wav
 *.mp3
+tmp-queue.tsv
+write-*.mjs
