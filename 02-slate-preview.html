@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --paper:#F6F2EA; --kapur:#FFFAF1; --tinta:#111315; --arang:#1C2127;
+    --garis:#D8CDBB; --emas:#D5A642; --bata:#C94F3D; --hijau:#2F8F6B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:transparent;
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;}
+  .wrap{max-width:820px;padding:4px 0 0;}
+  .kepala{display:flex;align-items:baseline;gap:12px;margin-bottom:4px}
+  .kepala h1{font-family:"Space Grotesk",Inter,sans-serif;font-size:30px;line-height:1.05;
+    letter-spacing:-.02em;color:#111315;margin:0;font-weight:600}
+  .tag{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8a8274;
+    font-family:"JetBrains Mono",ui-monospace,monospace}
+  .sub{font-size:13px;color:#5f666d;margin:6px 0 18px;max-width:560px;line-height:1.5}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .kartu{background:#FFFAF1;border:1px solid #D8CDBB;border-radius:14px;padding:14px 16px;
+    display:flex;gap:12px;align-items:flex-start}
+  .no{font-family:"Space Grotesk",Inter,sans-serif;font-size:13px;font-weight:600;
+    color:#D5A642;padding-top:2px;min-width:20px}
+  .isi h2{font-family:"Space Grotesk",Inter,sans-serif;font-size:16.5px;margin:0 0 3px;
+    color:#111315;font-weight:600;letter-spacing:-.01em}
+  .isi p{margin:0;font-size:12.5px;line-height:1.45;color:#5f666d}
+  .meta{margin-top:7px;font-family:"JetBrains Mono",ui-monospace,monospace;
+    font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:#8a8274}
+  .meta b{color:#2F8F6B;font-weight:500}
+  .kaki{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+  .chip{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:10.5px;
+    padding:5px 9px;border-radius:999px;border:1px solid #D8CDBB;color:#5f666d}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;
+    vertical-align:1px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kepala"><h1>Realita AI</h1><span class="tag">musim 01 · 6 film</span></div>
+  <p class="sub">Personal branding. Satu film satu ide, satu analogi, satu kesimpulan.
+  Semua dari catatan sendiri, tanpa angka proyek klien mana pun.</p>
+
+  <div class="grid">
+    <div class="kartu"><div class="no">01</div><div class="isi">
+      <h2>Pertanyaan yang Salah</h2>
+      <p>"Perusahaan bapak udah pakai AI belum?" Pertanyaan yang bikin orang beli alat sebelum tahu masalahnya.</p>
+      <div class="meta">swiss motion · <b>52 dtk</b></div></div></div>
+
+    <div class="kartu"><div class="no">02</div><div class="isi">
+      <h2>Akuarium</h2>
+      <p>Air kotor, ikan mahal. Yang dibenerin akuariumnya, bukan ikannya.</p>
+      <div class="meta">watercolor · <b>50 dtk</b></div></div></div>
+
+    <div class="kartu"><div class="no">03</div><div class="isi">
+      <h2>Tarkam</h2>
+      <p>Beli pemain termahal, taruh di lapangan tarkam. Tetap nggak menang.</p>
+      <div class="meta">pictogram · <b>52 dtk</b></div></div></div>
+
+    <div class="kartu"><div class="no">04</div><div class="isi">
+      <h2>Data di HP Sales</h2>
+      <p>Kalau data cuma ada di HP satu orang, itu bukan data. Itu sandera.</p>
+      <div class="meta">iso infographic · <b>54 dtk</b></div></div></div>
+
+    <div class="kartu"><div class="no">05</div><div class="isi">
+      <h2>Titik Berangkat</h2>
+      <p>4M. Rute cuma benar kalau lo jujur soal lo mulai dari mana.</p>
+      <div class="meta">transit map · <b>54 dtk</b></div></div></div>
+
+    <div class="kartu"><div class="no">06</div><div class="isi">
+      <h2>Standar Minimum</h2>
+      <p>Yang kalah bukan yang nggak bisa AI, tapi yang cuma nonton.</p>
+      <div class="meta">risograph · <b>50 dtk</b></div></div></div>
+  </div>
+
+  <div class="kaki">
+    <span class="chip"><span class="dot" style="background:#F6F2EA;border:1px solid #D8CDBB"></span>#F6F2EA kertas</span>
+    <span class="chip"><span class="dot" style="background:#111315"></span>#111315 tinta</span>
+    <span class="chip"><span class="dot" style="background:#D5A642"></span>#D5A642 emas</span>
+    <span class="chip"><span class="dot" style="background:#C94F3D"></span>#C94F3D bata</span>
+    <span class="chip">1080×1920 · 24 fps · −14 LUFS</span>
+  </div>
+</div>
+</body>
+</html>

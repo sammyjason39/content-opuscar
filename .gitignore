@@ -1,0 +1,11 @@
+# arsip materi lama, tidak dipakai di paket ini
+_archive-gaming/
+
+# macOS
+.DS_Store
+
+# hasil produksi lokal, jangan masuk repo
+04-RUNS/
+*.mp4
+*.wav
+*.mp3
